@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 id="headerText">Hello, World!</h1>
+    <div id="usernameForm">
+        <form id="setUsername">
+            <input type="text" id="newName" placeholder="username" autocomplete="off" required="required">
+            <button id="update">Set</button>
+        </form>
+    </div>
+    <div>
+        <form id="sendMessage">
+            <input type="text" id="newMsg" placeholder="message.." autocomplete="off" required/>
+            <button id="transfer">send</button>
+        </form>
+    </div>
+    <div id="messages"></div>
+</body>
+</html>

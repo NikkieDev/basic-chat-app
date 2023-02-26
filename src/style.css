@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input {
+    padding: 5px;
+}
+
+form {
+    margin: 2px;
+}
+
+button {
+    width: 60px;
+    padding: 5px;
+    background-color: #66CAFD;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: white;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-sender {
+    color: red;
+    margin: 2px;
+    margin-left: 0.75rem;
+}
+
+.message-content {
+    margin: 2px;
+    border: 2px solid gray;
+    border-radius: 15px 15px 15px 0;
+    background-color: #60a5fa;
+    color: white;
+    padding: 5px;
+    max-width: calc(fit-content + 20px);
+}
+
+#messages {
+    background-color: #282C34;
+    color: white;
+    border: 2px dotted gray;
+    padding: 1rem;
+}
